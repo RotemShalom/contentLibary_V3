@@ -1,0 +1,199 @@
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב עמוד בית */
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*הגדרת לוגו*/
+.classic .cover__details-logo, p, li, h1, h2, h3, h4, h5, h6, .block-list , .blocks-accordion__header, span,
+.flashcard-side__description{
+    direction: rtl !important;
+}
+
+
+/*שינוי גודל כותרות בתוכן עניינים*/
+.overview-list__section-title .overview-list-item__title{
+    font-size: 2rem;
+}
+
+/*עיצוב כותרות הסקשיינים*/
+.overview-list__section-title {
+    border-bottom: 0.1rem solid #F76F14;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/*עיצוב שמות הנושאים*/
+.overview-list-item__title{
+    color: #064F8D;
+    font-family: OSLuizRound;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב כללי עמודי תוכן*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+/*עיצוב האייקונים בעמוד הראשי*/
+.overview-list-item__icon{
+    color: #5DC4F1;
+}
+
+
+/*העלמת קו הטקסט בתמונות*/
+.block-image--overlay .block-image__paragraph:before, .classic .lesson-header-wrap--mobile .lesson-header__top-wrap:after, .lesson-header__top-wrap:after{
+    display: none;
+}
+
+/*עיצוב כפתור מעבר לעמוד הבא*/
+.continue-btn{
+    border-radius: 10px !important;
+}
+
+/*הסתרת ה-HEADER של עמודי התוכן*/
+.page__header-limit, .page__header{
+    display: none;
+}
+
+.classic .lesson-nav--full .lesson-nav__link-text{
+    font-size: 2rem;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב כרטיסיות*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב מבנה הכרטיסייה*/
+.block-flashcards.bg--type-accent .flashcard-side, .block-flashcards.bg--type-color .flashcard-side, .block-flashcards.bg--type-gray .flashcard-side, .block-flashcards.bg--type-gray .flashcard-side.block-card.bg--range-light, .block-flashcards.bg--type-light .flashcard-side, .block-flashcards.bg--type-light .flashcard-side.block-card.bg--range-light, .block-flashcards.bg--type-tint .flashcard-side, .flashcard-side--legacy, .flashcard-side--legacy.block-card.bg--range-light, .flashcard-side.block-card--white, .flashcard-side.block-card--white.block-card.bg--range-light{
+    border-radius: 25px;
+    background-color: #FFD5B8;
+    
+}
+
+/*עיצוב טקסט הכרטיסיה*/
+.flashcard-side__content--front:not(.flashcard-side__content--fullimage){
+    border-top:none;
+    color: #5DC4F1;
+}
+
+/*עיצוב פונט הכרטיסייה*/
+.flashcard-side__content :not(img):not(.flashcard-side-flip__tooltip) {
+    font-size: 25px;
+    color: #064F8D;
+}
+
+/*עיצוב כפתור היפוך הכרטיסייה*/
+.flashcard-side-flip__btn{
+    background-color: #FFD5B8;
+}
+
+.block-flashcards__wrapper{
+    direction: rtl;
+}
+
+.flashcard-side__content, .flashcard-side__content :not(img):not(.flashcard-side-flip__tooltip){
+    direction: rtl;
+    text-align: right;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב כרטיסיות*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב הכותרות */
+.blocks-accordion__header{
+    text-align: right;
+    color: #064F8D;
+    background-color: #FFD5B8;
+    border-color: transparent;
+    font-family: var(--font-family-ui) !important;
+    box-shadow: none;
+    /* border-radius: 25px 25px 0px 0px; */
+}
+
+.blocks-accordion__wrapper:first-child .blocks-accordion__header{
+    border-radius: 25px 25px 25px 25px !important; 
+}
+
+.blocks-accordion__content--visible {
+    background-color: #ffd5B8;
+    border-radius: 25px 25px 25px 25px;
+    border-color: transparent;
+}
+
+.blocks-accordion__wrapper--legacy:first-child {
+    border-color: transparent;
+}
+
+
+.blocks-accordion__item--legacy:first-child{
+    border-top: none;
+    border-radius: 25px 25px 25px 25px !important;
+}
+
+.blocks-accordion__wrapper:first-child{
+    box-shadow: none;
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*שינוי פונטים */
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+.nav-sidebar__outline-section-item__link,
+ span.nav-sidebar__outline-section-toggle-text,
+ .lesson-nav__link-text.brand--ui,
+ .continue-btn.brand--ui,
+ .cover__header-content-action-link-text,
+ .brand--ui.overview-list__section-title,
+ .overview-list-item__title
+ {
+    font-family: var(--font-family-body) !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב הרשימות*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב בולט הרשימות*/
+circle{
+    color: #064F8D;
+}
+
+.block-list__content__left {
+    right: 0;
+}
+
+.block-list__bullet{
+    left: 5.7rem;
+}
+
+.block-list__number {
+    right: -5rem;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב קרוסלה*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*שינוי מימין לשמאל*/
+.block-gallery {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.block-gallery--carousel .block-gallery__dots-list, .block-gallery--full-carousel .block-gallery__dots-list {
+    display: none;
+}
